@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-image: url(dinner.jpg);
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-size: 100%;
+  font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+#title {
+  font-size: 60px;
+}
+
+#add-dinner {
+  font-size: 20px;
+  color: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: dodgerblue;
+  border: solid;
+  border-color: deepskyblue;
+  border-radius: 10px;
+}
+
+#decide-dinner {
+  font-size: 25px;
+  color: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: deeppink;
+  border: solid;
+  border-color: darkred;
+  border-radius: 10px;
+}
+
+#dinner {
+  font-size: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: solid;
+  border-color: deepskyblue;
+  border-radius: 10px;
+}
+
+#decided-dinner-area {
+  font-size: 35px;
+  background-image: linear-gradient(#1fc9e0,#1114ca);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+#decided-dinner-area {
+  font-size: 35px;
+  color: darkblue;
+}
+
+#kouho {
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
