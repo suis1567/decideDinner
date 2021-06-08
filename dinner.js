@@ -4,7 +4,6 @@ const dinner = document.getElementById('dinner'); // inputタグに入力され�
 const addDinnerButton = document.getElementById('add-dinner'); // "ご飯IN!!"のボタン
 const decideDinnerButton = document.getElementById('decide-dinner'); // "\\ご飯を決めるなり//"のボタン
 const decidedDinnerArea = document.getElementById('decided-dinner-area'); // 決まったご飯を表示するエリア
-const testElement = document.getElementById('title');
 
 // ご飯が入ってしまうぅぅ
 const dinnerArray = [];
