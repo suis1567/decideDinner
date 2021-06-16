@@ -8,6 +8,9 @@ const decidedDinnerArea = document.getElementById('decided-dinner-area'); // 決
 // ご飯が入ってしまうぅぅ
 const dinnerArray = [];
 
+const music = new Audio();
+music.src = 'シュルク【スマブラSP ファンファーレ】.mp3';
+
 // 候補にご飯を追加する
 function addDinner() {
   const dinnerString = dinner.value; // 入力された文字列
@@ -28,6 +31,7 @@ function decidedDinner() {
       const dinnerIndex = Math.floor(Math.random() * isDinnerArrayTrue); // dinnerArrayからランダムで抽出するためのインデックス
       const extractionDinner = dinnerArray[dinnerIndex];
       decidedDinnerArea.innerText = `今日のご飯は ${extractionDinner} に決まったなり`;
+      music.play();
       removeAllChildren(dinnerList); // 親要素直下の（要素）候補を全て削除
       addRedCircle(extractionDinner); // ランダムで抽出された（要素）候補に⭕を付ける
       addDinnerButton.disabled = true; // 一回押したら無効
